@@ -1,5 +1,3 @@
-import React from "react";
-
 export const ProjectsContent = () => {
   return (
     <div className="grid lg:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] grid-cols-[repeat(auto-fit,minmax(100%,1fr))] gap-10">
@@ -53,6 +51,39 @@ export const ProjectsContent = () => {
         <div className="flex flex-col">
           <div className="">
             <p className="text-xs m-0 opacity-35 font-extralight text-center lg:text-end">
+              Independiente
+            </p>
+          </div>
+          <p className="text-xl content-end opacity-80 font-extralight mt-7">
+            Desarrollo de Software para la gestion y orginazacion de inventarios
+            de tratamientos automotrices
+          </p>
+          <p className="text-sm content-end opacity-80 font-extralight mt-4">
+            Desarrollé un aplicativo para la gestión y organización de
+            inventario en un establecimiento especializado en el tratamiento
+            físico de vehículos automotrices, optimizando el control de stock y
+            la eficiencia operativa.
+          </p>
+        </div>
+        <div className="flex flex-wrap gap-3 mt-4 ">
+          <p className="bg-emerald-300 p-1.5 text-slate-900 rounded-xl text-sm">
+            HTML
+          </p>
+          <p className="bg-emerald-300 p-1.5 text-slate-900 rounded-xl text-sm">
+            Tailwind
+          </p>
+          <p className="bg-emerald-300 p-1.5 text-slate-900 rounded-xl text-sm">
+            React
+          </p>
+          <p className="bg-emerald-300 p-1.5 text-slate-900 rounded-xl text-sm">
+            Javascript
+          </p>
+        </div>
+      </div>
+      <div className="card bg-gray-700/40 hover:bg-emerald-800 bg-opacity-10 p-6 transition-all ease-in cursor-context-menu flex flex-col justify-between h-full">
+        <div className="flex flex-col">
+          <div className="">
+            <p className="text-xs m-0 opacity-35 font-extralight text-center lg:text-end">
               El Sol, Alquiler y venta de vestidos
             </p>
           </div>
@@ -93,7 +124,7 @@ export const ProjectsContent = () => {
             </p>
           </div>
           <p className="text-xl content-end opacity-80 font-extralight mt-7">
-            Catálogo digital de ropa "ModeFlare"
+            ModeFlare - Catálogo digital de ropa
           </p>
           <p className="text-sm content-end opacity-80 font-extralight mt-4">
             En el desarrollo de ModeFlare, formé parte del equipo encargado del

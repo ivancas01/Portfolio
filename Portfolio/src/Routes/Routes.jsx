@@ -1,13 +1,12 @@
 import React from "react";
-import { BrowserRouter, Route, Router } from "react-router-dom";
-import App from "../App";
+import { BrowserRouter, Routes, Route } from "react-router";
 
 export const Routes = () => {
   return (
-    <BrowserRouter basename="/porfolio">
-      <Router>
+    <BrowserRouter>
+      <Routes>
         <Route path="/" element={<App />} />
-      </Router>
+      </Routes>
     </BrowserRouter>
   );
 };
