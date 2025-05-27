@@ -7,7 +7,7 @@ export const Content = () => {
     <div className="pt-10 lg:py-1 ">
       <p
         id="about"
-        className="text-1xl text-center lg:text-1xl text-neutral-300"
+        className="text-md text-center sm:text-sm md:text-md lg:text-md xl:text-xl text-neutral-300 px-5"
       >
         Soy un desarrollador Frontend apasionado por crear experiencias
         digitales cautivadoras, funcionales e intuitivas, con una sólida
